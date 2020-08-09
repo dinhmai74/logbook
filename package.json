@@ -2,7 +2,10 @@
   "name": "logbook",
   "version": "0.0.1",
   "description": "logbook CLI",
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dinhmai74"
+  },
   "types": "build/types/types.d.ts",
   "bin": {
     "logbook": "bin/logbook"
